@@ -1,0 +1,9 @@
+Polymorphysm- an ability to take many forms
+
+Compile Time (Overloading)-single class
+
+
+Run Time(Overriding) - sub classes (inhertiance)
+
+
+
