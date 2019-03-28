@@ -1,6 +1,6 @@
 package dt16032019;
 
-public class Student extends Person {
+public  class Student extends Person {
 	protected int roll;
 	
 int x =40;
@@ -40,12 +40,17 @@ int x =40;
 		super.getPersonDetails();
 		System.out.println(roll);
 		
-		System.out.println(super.x);
+		System.out.println(super.X);
 	}
 	
 
 	
 	
+	/*
+	 * public void display() {
+	 * 
+	 * }
+	 */
 	
 
 }

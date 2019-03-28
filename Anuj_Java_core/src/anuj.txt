@@ -6,4 +6,92 @@ Compile Time (Overloading)-single class
 Run Time(Overriding) - sub classes (inhertiance)
 
 
+Multiple Inheritance
+
+
+class A 
+{
+
+void m()
+{
+System.out.println("in class A");
+}
+}
+
+
+class B 
+{
+
+void m()
+{
+System.out.println("in class B");
+}
+}
+
+
+
+class C extends B,A
+{
+}
+
+C c = new C();
+c.m();
+abstraction
+abstract method -is a method with out implementation
+public abstract int add(int x, int y);  
+
+abstract class   - is class defined with abstract keyword
+
+ab class can have zero or more ab methods 
+and can also have concrete method(method with implementtaion)
+public int add(int a, int b)  
+{
+retuen a+b;
+}
+
+0-100
+
+interface
+final variables
+ab methods
+
+100
+
+
+functional interface - an interface which has only one ab methods
+
+lamba expression
+
+default implementations in interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -17,4 +17,6 @@ public class MgtQuotaStudent   extends Student{
 		System.out.println(name +" ,  "+address+"  , "+roll+" , "+donation);
 	}
 
+	
+	
 }
